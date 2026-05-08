@@ -9,7 +9,7 @@ describe("Página Inicial", () => {
     cy.visit("https://concientizacaociber.netlify.app")
     cy.contains('Criadores').click()
     cy.contains("Página Inicial").click()
-    cy.url().should('eq', 'https://concientizacaociber.netlify.app/')
+    cy.url().should('eq', '/')
 
    }) 
 
