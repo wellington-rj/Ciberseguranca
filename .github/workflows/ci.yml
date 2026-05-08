@@ -18,3 +18,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
+          start: npx http-server . -p 8080
+          wait-on: "http://localhost:8080"

@@ -5,7 +5,7 @@ module.exports = defineConfig({
   pageLoadTimeout: 120000,
 
   e2e: {
-    baseUrl: "https://concientizacaociber.netlify.app",
+    baseUrl: "http://localhost:8080",
     chromeWebSecurity: false,
     setupNodeEvents(on, config) {},
   },
